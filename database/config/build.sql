@@ -15,8 +15,5 @@ INSERT INTO posts (title, content)
 VALUES
   ('Post 1', 'Content 1'),
   ('Post 2', 'Content 2'),
-  ('Post 3', 'Content 3'),
-  ('Post 4', 'Content 4'),
-  ('Post 5', 'Content 5');
 
 COMMIT;
