@@ -1,5 +1,5 @@
 const { Pool } = require('pg');
-require('env2')('./config.env');
+require('dotenv').config();
 
 if (!process.env.DB_URL) throw new Error('No Database URL!');
 
